@@ -3,14 +3,18 @@
         <title>Practice</title>
         <body>
             <h1>Welcome to the practice session ✨</h1>
-            <h2>Now, fill the form and read the below information <br>and then click submit 🚀</h2>
+            <h2>Now, fill the form and read the below information and then click submit 🚀</h2>
             <a href = "www.google.com">You can visit Google too.. <hr></a>
             <h3>Form:</h3>
             <form action = "https://example.com">
-                <input placeholder="Enter Your Name" type="text"/>
-                <input placeholder="Enter Your DOB" type="date"/>
-                <input placeholder="Enter Your email" type="email"/>
-                <input placeholder="Enter Your password" type="password"/>
+                <label for="name">Name:</label>
+                <input id="name" placeholder="Enter Your Name" type="text"/>
+                <label for="dob"><p></p> DOB:</label>
+                <input id="dob" placeholder="Enter Your DOB" type="date"/>
+                <label for="email"><p></p> Email:</label>
+                <input id="email" placeholder="Enter Your email" type="email"/>
+                <label for="pass"><p></p> Password:</label>
+                <input id="pass" placeholder="Enter Your password" type="password"/>
                 <input type="submit"/>
             </form>
             <hr>
